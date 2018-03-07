@@ -4,7 +4,7 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"fmt"
-	"goworkshop/model"
+	"goworkshop2/model"
 )
 
 const (
@@ -13,8 +13,8 @@ const (
 
 func InitDB() (error) {
 
-	DBInstance, err := gorm.Open("postgres", "host=localhost port=5432 user=dbadmin "+
-		"password=dbadmin dbname=workshop_db sslmode=disable")
+	DBInstance, err := gorm.Open("postgres", "host=localhost port=5433 user=postgres "+
+		"password=volvot5r dbname=goDb sslmode=disable")
 
 	if err != nil {
 		fmt.Printf("Error while aquiring db connection: %s", err)

@@ -2,7 +2,7 @@ package persistence
 
 import (
 	"errors"
-	"goworkshop/model"
+	"goworkshop2/model"
 )
 
 func (store *GormDataStore) GetAuthor(uuid string) (model.Author, error) {

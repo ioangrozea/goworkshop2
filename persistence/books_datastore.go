@@ -2,7 +2,7 @@ package persistence
 
 import (
 	"errors"
-	"goworkshop/model"
+	"goworkshop2/model"
 )
 
 func (store *GormDataStore) CreateBook(book *model.Book) error {

@@ -3,10 +3,10 @@ package web
 import (
 	"net/http"
 	"github.com/gorilla/mux"
-	"goworkshop/model"
+	"goworkshop2/model"
 	"io/ioutil"
 	"encoding/json"
-	"goworkshop/persistence"
+	"goworkshop2/persistence"
 )
 
 //Demonstrates the basic functionality of private and public modifiers in GO

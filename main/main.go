@@ -1,8 +1,8 @@
 package main
 
 import (
-	"goworkshop/web"
-	"goworkshop/persistence"
+	"goworkshop2/web"
+	"goworkshop2/persistence"
 )
 
 func main() {

@@ -2,7 +2,7 @@ package persistence
 
 import (
 	"github.com/jinzhu/gorm"
-	"goworkshop/model"
+	"goworkshop2/model"
 )
 
 var Store DataStore

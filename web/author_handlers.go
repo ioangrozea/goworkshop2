@@ -2,11 +2,11 @@ package web
 
 import (
 	"net/http"
-	"goworkshop/model"
+	"goworkshop2/model"
 	"github.com/gorilla/mux"
 	"io/ioutil"
 	"encoding/json"
-	"goworkshop/persistence"
+	"goworkshop2/persistence"
 )
 
 func GetAllAuthors(w http.ResponseWriter, _ *http.Request) error {
